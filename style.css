@@ -38,10 +38,13 @@
 
 .left-container,.right-container{
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .left-container{
     background-color: grey;
     width: 70%;
+    padding-left: 3rem;
 }
 
 .right-container{
@@ -51,8 +54,40 @@
 
 .icons ,fa-brands{
    color: rgb(210, 250, 34);
+   font-size: 1.7rem;
 }
 
 button{
     color: black;
+    margin-bottom: 1.5rem;
+    border-radius: .2rem solid rgb(7, 7, 184);
+    font-size: 1.1rem;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
 }
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.content h2{
+    font-size: 1.1rem;
+}
+
+.content h1{
+    font-size: 2.5rem;
+}
+
+p{
+    margin: 1rem 0 3rem 0;
+    max-width: 38rem;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
