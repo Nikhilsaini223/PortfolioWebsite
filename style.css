@@ -163,7 +163,8 @@ p{
     
     width: 30rem;
     background-image: url("image/Blue-Suit.jpg") ;
-    background-size: 95%;
+    background-size: 100%;
+    background-position: 100%;
     background-repeat: no-repeat;
     border: .9rem solid white;
    
