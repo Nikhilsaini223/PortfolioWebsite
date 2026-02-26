@@ -17,7 +17,6 @@
 }
 
 
-
 .btn-group{
     margin-top: 25px;
     display: flex;
@@ -89,13 +88,13 @@
     align-items: center;
 }
 .left-container{
-    background-color:#111827;
+    background: linear-gradient(135deg, #0f172a, #0b1120);
     width: 70%;
     padding-left: 3rem;
 }
 
 .right-container{
-      background: linear-gradient(135deg, #4f46e5, #9333ea 70%);
+      background: linear-gradient(200deg, #1e1b4b, #6d28d9);
       width: 30%;
 }
 
@@ -116,6 +115,12 @@
     size: 20;
 }
 
+.icons a:hover{
+    color: #7c3aed;
+    transform: scale(1.3);
+    text-shadow: 0 0 10px #7c3aed;
+}
+
 .content h2{
     font-size: 1.4rem;
     color: #cbd5e1;
@@ -125,7 +130,7 @@
     font-size: 2.5rem;
     color: #ffffff;
     letter-spacing: 2px;
-    text-shadow: 0 0 10px #3b82f6;
+    text-shadow: 0 0 15px rgba(124, 58, 237, 0.7);
 
 }
 
@@ -160,8 +165,10 @@ p{
     background-image: url("image/Blue-Suit.jpg") ;
     background-size: 95%;
     background-repeat: no-repeat;
-    border: 1rem solid white;
-    box-shadow: 0 0 40px #3b82f6;
+    border: .9rem solid white;
+   
+    box-shadow: 0 0 60px rgba(124, 58, 237, 0.8),
+                0 0 120px rgba(124, 58, 237, 0.5)
 
    
 }
